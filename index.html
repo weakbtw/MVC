@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Менеджер книг</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Список книг</h1>
+        <ul id="book-list">
+
+        </ul>
+
+        <h2>Додати нову книгу</h2>
+        <form id="book-form">
+            <label for="title">Назва:</label>
+            <input type="text" id="title" required>
+            <br>
+            <label for="author">Автор:</label>
+            <input type="text" id="author" value="Малий Артем Васильович" required>
+            <br>
+            <button type="submit">Додати книгу</button>
+        </form>
+    </div>
+
+    <script src="model.js"></script>
+    <script src="view.js"></script>
+    <script src="controller.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
